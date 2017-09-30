@@ -1,14 +1,12 @@
 function forLoop(array) {
-  var stringArray
-
   for (var i = 0; i < 25; i++) {
     if i === 1 {
-      stringArray.push(" I am " + i.toString() + " strange loop.")
+      array.push(" I am " + i.toString() + " strange loop.")
     } else {
-      stringArray.push(" I am " + i.toString() + " strange loops.")
+      array.push(" I am " + i.toString() + " strange loops.")
     }
   }
-  return stringArray
+  return array
 }
 
 function whileLoop(n) {
