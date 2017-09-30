@@ -1,5 +1,5 @@
 function forLoop(array) {
-  var stringArray[]
+  var stringArray
 
   for (var i = 0; i < 25; i++) {
     if i === 1 {
